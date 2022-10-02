@@ -1,0 +1,79 @@
+ body {
+     min-height: 100vh;
+     /* background-color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+ }
+
+ .con {
+     background: transparent;
+     /* border-radius: 5px; */
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     min-height: 17px;
+     margin: auto;
+     width: 21%;
+     margin-top: 15%;
+     /* box-shadow: 2px 2px 2px #8888; */
+     /* top: -1px; */
+     position: absolute;
+     top: -246px;
+     height: 178px;
+     left: 35px;
+ }
+
+ .tit {
+     font-size: 42px;
+     font-weight: 700;
+     color: black;
+     text-align: center;
+     margin-bottom: 10%;
+     /* background: white; */
+     color: white;
+     /* border-radius: 43px; */
+     /* text-shadow: 8px 5px black; */
+     /* border: 7px solid black; */
+     width: 158px;
+     /* border-radius: 38px; */
+     text-align: unset;
+     /* text-decoration: underline; */
+     /* padding: 25px; */
+     position: relative;
+     top: 26px;
+ }
+
+ .quoteDiv {
+     background: transparent;
+     margin: 21px 0;
+     padding: -11px;
+     border-radius: -56px;
+     border: 2px solid transparent;
+     box-shadow: -5px 0px 13px 8px white;
+     transition: all;
+
+
+     transition-duration: 0.8s;
+     transition-timing-function: ease-in;
+ }
+
+ .quoteDiv:hover {
+     box-shadow: none;
+
+ }
+
+ .quoteTxt {
+     text-align: center;
+     font-size: 22px;
+     font-style: italic;
+     /* columns: #5c5c5c; */
+     background: transparent;
+     color: white;
+     line-height: 29px;
+     width: 354px;
+ }
+
+ .authorTxt {
+     text-align: center;
+     font-size: 25px;
+     color: aqua;
+ }
